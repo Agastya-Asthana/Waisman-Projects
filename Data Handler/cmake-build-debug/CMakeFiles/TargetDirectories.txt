@@ -1,0 +1,4 @@
+/Users/agastyaasthana/Documents/Waisman Projects/Data Handler/cmake-build-debug/CMakeFiles/Data_Handler.dir
+/Users/agastyaasthana/Documents/Waisman Projects/Data Handler/cmake-build-debug/CMakeFiles/MatplotPlayground.dir
+/Users/agastyaasthana/Documents/Waisman Projects/Data Handler/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/agastyaasthana/Documents/Waisman Projects/Data Handler/cmake-build-debug/CMakeFiles/rebuild_cache.dir

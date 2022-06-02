@@ -1,0 +1,26 @@
+# ninja log v5
+2395	8112	1654105649525984246	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/util/common.cpp.o	587989bc5e9f7d7f
+2092	3972	1654105645397428236	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/util/colors.cpp.o	5f22b63f8f29c391
+1315	3943	1654105645366556072	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/core/figure_type.cpp.o	431641a4c6d32c53
+4	3608	1654105645025485192	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/backend/gnuplot.cpp.o	e84c2bf4e68a1b48
+1339	3275	1654105644698120056	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/core/figure_registry.cpp.o	983b6cc46725fe95
+6	6059	1654105647477213573	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/core/axes_type.cpp.o	6477984e9c442157
+1154	3440	1654105644858061660	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/core/axes_object.cpp.o	5e34645c23d6dddf
+2	1263	1654108918168937471	CMakeFiles/Data_Handler.dir/main.cpp.o	16e71fabbe78e32c
+3	1153	1654105642562050672	matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/algebra.cpp.o	60acbaecd76a4635
+4	2091	1654105643515043438	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/backend/backend_interface.cpp.o	49f1c0ded03f036a
+1382	3582	1654105645002984656	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/core/legend.cpp.o	171e0c0ec7abed9c
+3	1339	1654105642762137518	matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/kamada_kawai.cpp.o	92746848698ee1ed
+3	1157	1654105642562061339	matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/layout.cpp.o	315b1e7c93d16f7e
+5	1382	1654105642805556730	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/backend/backend_registry.cpp.o	c96c4bb31429cb07
+1157	3509	1654105644931924249	matplotplusplus/source/matplot/CMakeFiles/matplot.dir/core/axis_type.cpp.o	9a3b1a263e5cab00
+1609	1687	1654105643117295000	matplotplusplus/source/3rd_party/libnodesoup.a	ac3df4c0ec93750c
+3	1608	1654105643032285824	matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/fruchterman_reingold.cpp.o	3c678e1a5fb709a
+1263	1348	1654108918257457539	Data_Handler	10d93e43678b21dd
+4	1315	1654105642735456730	matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/nodesoup.cpp.o	6d053f0ed1dd4e2d
+0	1219	1654109059900579224	CMakeFiles/MatplotPlayground.dir/MatplotPlayground.cpp.o	869d7abcf2a030f
+1220	1308	1654109059992296584	MatplotPlayground	410055251bee9a27
+1	1758	1654109333514511989	CMakeFiles/MatplotPlayground.dir/MatplotPlayground.cpp.o	869d7abcf2a030f
+1758	1851	1654109333612095273	MatplotPlayground	410055251bee9a27
+3	2042	1654109591828075272	CMakeFiles/Data_Handler.dir/main.cpp.o	16e71fabbe78e32c
+2043	2208	1654109592001601496	Data_Handler	10d93e43678b21dd
