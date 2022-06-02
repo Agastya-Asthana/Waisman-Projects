@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 23)
 
 find_package(Matplot++ REQUIRED)
 
-add_executable(Data_Handler main.cpp)
+add_executable(Data_Handler DataHandler.cpp)
 target_link_libraries(Data_Handler Matplot++::matplot)
 
 add_executable(MatplotPlayground MatplotPlayground.cpp)

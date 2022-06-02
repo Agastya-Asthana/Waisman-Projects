@@ -1,7 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <matplot/matplot.h>
-#include <vector>
+#include "DataHandler.h"
 
 using namespace std;
 
@@ -12,7 +10,7 @@ vector<int> Generate_Integer_Array_From_String(char*** cube, int col, int num_li
 
 int main() {
     printf("Hello World!\n");
-    char filename[100] = "/Users/agastyaasthana/Documents/Waisman Projects/Data Handler/RPM.csv";
+    char filename[100] = "/Users/agastyaasthana/Documents/Waisman-Projects/Data Handler/RPM.csv";
     FILE *file_ptr = fopen(filename, "r");
     if (file_ptr == nullptr) printf("The file could not be found!");
 

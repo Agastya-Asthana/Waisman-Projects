@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/agastyaasthana/Documents/Waisman$ Projects/Data$ Handler/cmake-build-debug/
+cmake_ninja_workdir = /Users/agastyaasthana/Documents/Waisman-Projects/Data$ Handler/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target Data_Handler
 
@@ -49,9 +49,9 @@ cmake_ninja_workdir = /Users/agastyaasthana/Documents/Waisman$ Projects/Data$ Ha
 
 build cmake_object_order_depends_target_Data_Handler: phony || CMakeFiles/Data_Handler.dir
 
-build CMakeFiles/Data_Handler.dir/main.cpp.o: CXX_COMPILER__Data_Handler_Debug /Users/agastyaasthana/Documents/Waisman$ Projects/Data$ Handler/main.cpp || cmake_object_order_depends_target_Data_Handler
+build CMakeFiles/Data_Handler.dir/DataHandler.cpp.o: CXX_COMPILER__Data_Handler_Debug /Users/agastyaasthana/Documents/Waisman-Projects/Data$ Handler/DataHandler.cpp || cmake_object_order_depends_target_Data_Handler
   DEFINES = -DMATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP -DNOMINMAX
-  DEP_FILE = CMakeFiles/Data_Handler.dir/main.cpp.o.d
+  DEP_FILE = CMakeFiles/Data_Handler.dir/DataHandler.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++2a
   INCLUDES = -isystem /usr/local/include
   OBJECT_DIR = CMakeFiles/Data_Handler.dir
@@ -65,7 +65,7 @@ build CMakeFiles/Data_Handler.dir/main.cpp.o: CXX_COMPILER__Data_Handler_Debug /
 #############################################
 # Link the executable Data_Handler
 
-build Data_Handler: CXX_EXECUTABLE_LINKER__Data_Handler_Debug CMakeFiles/Data_Handler.dir/main.cpp.o | /usr/local/lib/libmatplot.dylib
+build Data_Handler: CXX_EXECUTABLE_LINKER__Data_Handler_Debug CMakeFiles/Data_Handler.dir/DataHandler.cpp.o | /usr/local/lib/libmatplot.dylib
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   LINK_LIBRARIES = -Wl,-rpath,/usr/local/lib  /usr/local/lib/libmatplot.dylib
   OBJECT_DIR = CMakeFiles/Data_Handler.dir
@@ -83,7 +83,7 @@ build Data_Handler: CXX_EXECUTABLE_LINKER__Data_Handler_Debug CMakeFiles/Data_Ha
 
 build cmake_object_order_depends_target_MatplotPlayground: phony || CMakeFiles/MatplotPlayground.dir
 
-build CMakeFiles/MatplotPlayground.dir/MatplotPlayground.cpp.o: CXX_COMPILER__MatplotPlayground_Debug /Users/agastyaasthana/Documents/Waisman$ Projects/Data$ Handler/MatplotPlayground.cpp || cmake_object_order_depends_target_MatplotPlayground
+build CMakeFiles/MatplotPlayground.dir/MatplotPlayground.cpp.o: CXX_COMPILER__MatplotPlayground_Debug /Users/agastyaasthana/Documents/Waisman-Projects/Data$ Handler/MatplotPlayground.cpp || cmake_object_order_depends_target_MatplotPlayground
   DEFINES = -DMATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP -DNOMINMAX
   DEP_FILE = CMakeFiles/MatplotPlayground.dir/MatplotPlayground.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++2a
@@ -113,7 +113,7 @@ build MatplotPlayground: CXX_EXECUTABLE_LINKER__MatplotPlayground_Debug CMakeFil
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/Users/agastyaasthana/Documents/Waisman Projects/Data Handler/cmake-build-debug" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd "/Users/agastyaasthana/Documents/Waisman-Projects/Data Handler/cmake-build-debug" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -124,7 +124,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/Users/agastyaasthana/Documents/Waisman Projects/Data Handler/cmake-build-debug" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S"/Users/agastyaasthana/Documents/Waisman Projects/Data Handler" -B"/Users/agastyaasthana/Documents/Waisman Projects/Data Handler/cmake-build-debug"
+  COMMAND = cd "/Users/agastyaasthana/Documents/Waisman-Projects/Data Handler/cmake-build-debug" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S"/Users/agastyaasthana/Documents/Waisman-Projects/Data Handler" -B"/Users/agastyaasthana/Documents/Waisman-Projects/Data Handler/cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -140,7 +140,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /Users/agastyaasthana/Documents/Waisman Projects/Data Handler/cmake-build-debug
+# Folder: /Users/agastyaasthana/Documents/Waisman-Projects/Data Handler/cmake-build-debug
 
 build all: phony Data_Handler MatplotPlayground
 

@@ -41,7 +41,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Data_Handler::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Data_Handler-Debug-a80d6af257e34f09ae55.json",
+					"jsonFile" : "target-Data_Handler-Debug-c1860c8553619d8213f9.json",
 					"name" : "Data_Handler",
 					"projectIndex" : 0
 				},
@@ -58,8 +58,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/agastyaasthana/Documents/Waisman Projects/Data Handler/cmake-build-debug",
-		"source" : "/Users/agastyaasthana/Documents/Waisman Projects/Data Handler"
+		"build" : "/Users/agastyaasthana/Documents/Waisman-Projects/Data Handler/cmake-build-debug",
+		"source" : "/Users/agastyaasthana/Documents/Waisman-Projects/Data Handler"
 	},
 	"version" : 
 	{
